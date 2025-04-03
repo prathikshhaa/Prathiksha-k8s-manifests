@@ -1,4 +1,4 @@
-piVersion: v1
+apiVersion: v1
 kind: Service
 metadata:
   name: cart-page-svc
@@ -9,4 +9,4 @@ spec:
   - port: <Port>
     targetPort: <Target Port>
   type: LoadBalancer
-  
+
