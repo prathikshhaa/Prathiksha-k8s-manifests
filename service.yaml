@@ -6,7 +6,7 @@ spec:
   selector:
     web: cart
   ports:
-  - port: <Port>
-    targetPort: <Target Port>
+  - port: 3002
+    targetPort: 3000
   type: LoadBalancer
 
