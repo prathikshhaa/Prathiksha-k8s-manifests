@@ -1,0 +1,12 @@
+piVersion: v1
+kind: Service
+metadata:
+  name: cart-page-svc
+spec:
+  selector:
+    web: cart
+  ports:
+  - port: <Port>
+    targetPort: <Target Port>
+  type: LoadBalancer
+  
